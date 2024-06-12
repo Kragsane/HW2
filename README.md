@@ -13,7 +13,7 @@ The image inserted into our model will first being processed using 'preprocess.i
 Folder and file explained:
 - The file #.ipynb# is a code file containing the code to do the task. It is divided into "Part1_xx" for completing task 1, and "Part2_xx" for completing task 2.
 - The file "ResNET18" and "ResNET34" is the baseline model (naive model) use as comparison with our model. "ResNET18" compares with models from task 1, and "ResNET34" compares with model from task 2.
-- The folder "Part1" and "Part2" contains the model and predicted results saved in .csv file so that we don't have to retrain the model every single time we want to use it (except to reproduce, which is actually don't need as we can insert the model and evaluate model's architecture).
+- The folder "Part1.zip" and "Part2.zip" contains the "best" model and all predicted results saved in .pth and .csv file so that we don't have to retrain the model when we want to use it (except to reproduce, which is actually don't need as we can insert the model and evaluate model's architecture).
 
 To reproduce results to see model's architecture and predicted results without retraining:
 1. Change "work_path" in cell 1 to match folder directory.
