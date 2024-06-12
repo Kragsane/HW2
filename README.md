@@ -19,6 +19,6 @@ To reproduce results to see model's architecture and predicted results without r
 1. Change "work_path" in cell 1 to match folder directory.
 2. Run all cells except for cell starting with "num_epochs = 50" as this indicates training process.
 
-For details on how to do these 2 tasks, please read the "report.docx" provided.
+For details on how to do these 2 tasks, please read the "report.pdf" provided.
 
 RE6125015
